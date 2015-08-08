@@ -1,16 +1,15 @@
-<div id="content" class="container-fluid">
+<div class="text-center">
     <% @blog_posts.each do |blog_post| %>
         <div class="row blog">
             <h1 class="title">
                 <%= blog_post.title %>
             </h1>
             <p>
-            <%= blog_post.body %>
+                <%= blog_post.body %>
             </p>
             <h4>
                 <%= blog_post.tagline %>
             </h4>
-    </div>
-  <% end %>
-
-<%= link_to 'New Blog post', new_blog_post_path %>
+        </div>
+    <% end %>
+</div>
