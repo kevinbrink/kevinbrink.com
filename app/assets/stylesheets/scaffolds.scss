@@ -71,3 +71,12 @@ div {
     list-style: square;
   }
 }
+
+/* My things! */
+
+.navbar-nav {
+    float:none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+}
