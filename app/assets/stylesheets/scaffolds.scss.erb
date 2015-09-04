@@ -4,6 +4,11 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  background: url(<%= asset_path 'background.jpg' %>) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 p, ol, ul, td {
@@ -79,4 +84,34 @@ div {
     margin: 0 auto;
     display: table;
     table-layout: fixed;
+}
+
+.navbar {
+    background-color: rgba(231, 231, 231, 0.75);
+    border: none;
+}
+
+div#landing {
+    height: 400px;
+    <%#height: 100%;display: table-cell;vertical-align: middle;%>
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 0% 10% 0% 10%;
+}
+
+#affix-nav {
+    position: fixed;
+    width: 100%;
+}
+
+#affix-nav.affix-top {
+    top: -100px;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+#affix-nav.affix {
+    top: 0;
+    -webkit-transition: all .6s ease-in-out;
 }

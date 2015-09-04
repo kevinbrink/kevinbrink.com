@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'new_blog' => 'blog_posts#new'
   post 'create_blog' => 'blog_posts#create'
   post 'blog_posts' => 'blog_posts#create'
-  
+
   #resources :blog_posts
   #get 'new_blog_post' => 'blog_posts#new'
   #get 'edit_blog_post' => ' blog_posts#edit'

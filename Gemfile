@@ -42,3 +42,5 @@ group :production do
   # Make rails work better with Heroku
   gem 'rails_12factor'
 end
+
+gem 'devise'

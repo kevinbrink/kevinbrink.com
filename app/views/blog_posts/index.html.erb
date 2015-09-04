@@ -1,4 +1,8 @@
-<div class="text-center">
+<% content_for :header do %>
+    <div id="landing">
+    </div>
+<% end %>
+<div>
     <% @blog_posts.each do |blog_post| %>
         <div class="row blog">
             <h1 class="title">
