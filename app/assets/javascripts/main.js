@@ -6,7 +6,6 @@ $(document).ready(function() {
           }
     });
 
-    $('#affix-nav').css('-webkit-transition', 'all .2s ease-in-out');
 //    /* smooth scrolling for nav sections */
 //    $('.navbar .navbar-nav li>a').click(function(){
 //      var link = $(this).attr('href');
@@ -16,4 +15,12 @@ $(document).ready(function() {
 //      posi -= $("#affix-nav").outerHeight();
 //      $('body,html').animate({scrollTop:posi},700);
 //    })
+    
+    // TODO: This should go into blog_posts.js, but it's not working there for
+    // some reason
+    $('#scroll-down').click(function() {
+        $('body,html').animate({
+            scrollTop:$("#main-nav").offset().top
+        }, 700);
+    });
 });

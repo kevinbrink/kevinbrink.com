@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'blog_posts#index'
   get 'new_blog' => 'blog_posts#new'
   post 'create_blog' => 'blog_posts#create'

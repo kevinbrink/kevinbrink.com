@@ -92,8 +92,8 @@ div {
 }
 
 div#landing {
-    height: 400px;
-    <%#height: 100%;display: table-cell;vertical-align: middle;%>
+    height: 100vh;
+    position: relative;
 }
 
 #content {
@@ -114,4 +114,16 @@ div#landing {
 #affix-nav.affix {
     top: 0;
     -webkit-transition: all .6s ease-in-out;
+}
+
+#scroll-down {
+    text-align: center;
+    bottom: 20px;
+    width:50px;
+    height:50px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.85);
 }

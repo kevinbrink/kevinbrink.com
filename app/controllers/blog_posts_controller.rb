@@ -1,6 +1,6 @@
 class BlogPostsController < ApplicationController
   before_action :set_blog_post, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate, only: [:new, :create]
+  before_action :authenticate_user!, only: [:new, :create]
 
   # GET /blog_posts
   # GET /blog_posts.json
@@ -70,8 +70,5 @@ class BlogPostsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_post_params
       params.require(:blog_post).permit(:title, :body, :tagline)
-    end
-
-    def authenticate
     end
 end
