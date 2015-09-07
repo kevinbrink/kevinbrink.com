@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :body %><br>
-    <%= f.text_field :body %>
+    <%= f.text_area :body, class: "tinymce", rows: 20 %>
   </div>
   <div class="field">
     <%= f.label :tagline %><br>
@@ -27,3 +27,4 @@
     <%= f.submit %>
   </div>
 <% end %>
+<%= tinymce %>

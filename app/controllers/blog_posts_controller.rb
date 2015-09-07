@@ -5,7 +5,7 @@ class BlogPostsController < ApplicationController
   # GET /blog_posts
   # GET /blog_posts.json
   def index
-    @blog_posts = BlogPost.all
+    @blog_posts = BlogPost.last(5).reverse
   end
 
   # GET /blog_posts/new
@@ -69,6 +69,7 @@ class BlogPostsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_post_params
+      puts "Yeah yeah. Checking out the params: " + params.inspect
       params.require(:blog_post).permit(:title, :body, :tagline)
     end
 end

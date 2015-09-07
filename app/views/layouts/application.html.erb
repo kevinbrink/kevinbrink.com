@@ -6,7 +6,7 @@
         <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
         <%= csrf_meta_tags %>
     </head>
-    <body>
+    <body id="<%= action_name%>">
         <nav class="navbar navbar-default navbar-static-top" id="affix-nav">
             <%= render "shared/navigation_content" %>
         </nav>
@@ -15,7 +15,7 @@
         <nav class="navbar navbar-default" id="main-nav">
             <%= render "shared/navigation_content" %>
         </nav>
-        <div id="content" class="container-fluid text-center">
+        <div id="content" class="container-fluid text-left">
             <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
                     <%= yield %>

@@ -1,18 +1,19 @@
 <% content_for :header do %>
     <div id="landing">
+        <h2>Welcome to the Brink</h2>
         <i id="scroll-down" class="fa fa-chevron-circle-down fa-3x"></i>
     </div>
 <% end %>
 <div>
     <% @blog_posts.each do |blog_post| %>
         <div class="row blog">
-            <h1 class="title">
+            <h1 class="title text-center">
                 <%= blog_post.title %>
             </h1>
             <p>
-                <%= blog_post.body %>
+                <%= blog_post.body.html_safe %>
             </p>
-            <h4>
+            <h4 class="text-center">
                 <%= blog_post.tagline %>
             </h4>
         </div>

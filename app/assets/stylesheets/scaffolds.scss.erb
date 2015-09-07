@@ -1,79 +1,101 @@
 body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  background: url(<%= asset_path 'background.jpg' %>) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+body#index {
+    background: url(<%= asset_path 'index-background.jpg' %>) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body#about {
+    background: url(<%= asset_path 'about-background.jpg' %>) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body#contact {
+    background: url(<%= asset_path 'contact-background.jpg' %>) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 18px;
+}
+
+p {
+    margin: 20px;
 }
 
 pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 11px;
 }
 
 a {
-  color: #000;
+    color: #000;
 
-  &:visited {
-    color: #666;
+    &:visited {
+        color: #666;
   }
 
   &:hover {
-    color: #fff;
-    background-color: #000;
+      color: #fff;
+      background-color: #000;
   }
 }
 
 div {
-  &.field, &.actions {
-    margin-bottom: 10px;
+    &.field, &.actions {
+        margin-bottom: 10px;
   }
 }
 
 #notice {
-  color: green;
+    color: green;
 }
 
 .field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+    padding: 2px;
+    background-color: red;
+    display: table;
 }
 
 #error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
 
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff;
+    h2 {
+        text-align: left;
+        font-weight: bold;
+        padding: 5px 5px 5px 15px;
+        font-size: 12px;
+        margin: -7px;
+        margin-bottom: 0px;
+        background-color: #c00;
+        color: #fff;
   }
 
   ul li {
-    font-size: 12px;
-    list-style: square;
+      font-size: 12px;
+      list-style: square;
   }
 }
 
@@ -94,20 +116,33 @@ div {
 div#landing {
     height: 100vh;
     position: relative;
+    text-align: center;
+    color: white;
+    background: url(<%= asset_path 'landing.jpg' %>) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#landing > h2 {
+    margin-top: 0px;
+    position: relative;
+    top: 30px;
 }
 
 #content {
     background-color: rgba(255, 255, 255, 0.85);
-    margin: 0% 10% 0% 10%;
+    margin: 0% 10% 2% 10%;
 }
 
 #affix-nav {
     position: fixed;
     width: 100%;
+    top: -100px;
 }
 
 #affix-nav.affix-top {
-    top: -100px;
     -webkit-transition: all .2s ease-in-out;
 }
 
@@ -126,4 +161,8 @@ div#landing {
     right: 0;
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.85);
+}
+
+#content > div {
+    margin: 30px;
 }
