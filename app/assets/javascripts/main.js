@@ -15,10 +15,10 @@ $(document).ready(function() {
 //      posi -= $("#affix-nav").outerHeight();
 //      $('body,html').animate({scrollTop:posi},700);
 //    })
-    
+
     // TODO: This should go into blog_posts.js, but it's not working there for
     // some reason
-    $('#scroll-down').click(function() {
+    $('.scroll-down').click(function() {
         $('body,html').animate({
             scrollTop:$("#main-nav").offset().top
         }, 700);

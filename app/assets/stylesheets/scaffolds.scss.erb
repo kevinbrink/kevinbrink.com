@@ -1,3 +1,5 @@
+<%## TODO: NEED to figure out good colors. Kinda all over the place right now%>
+
 body {
     color: #333;
     font-family: verdana, arial, helvetica, sans-serif;
@@ -5,7 +7,7 @@ body {
     line-height: 18px;
 }
 
-body#index {
+body {
     background: url(<%= asset_path 'index-background.jpg' %>) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -109,7 +111,7 @@ div {
 }
 
 .navbar {
-    background-color: rgba(231, 231, 231, 0.75);
+    background-color: rgba(184, 200, 221, 0.99);
     border: none;
 }
 
@@ -125,21 +127,50 @@ div#landing {
     background-size: cover;
 }
 
-#landing > h2 {
-    margin-top: 0px;
-    position: relative;
-    top: 30px;
+#landing > div {
+    padding-top: 30px;
+}
+
+p.scroll-down {
+    background-color: white;
+    color: rgb(131, 166, 213);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.scroll-down:hover {
+    cursor: pointer;
 }
 
 #content {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(131, 166, 213, 0.85);
     margin: 0% 10% 2% 10%;
+    color: white;
+}
+
+#main-nav a {
+    color: black;
 }
 
 #affix-nav {
     position: fixed;
     width: 100%;
     top: -100px;
+    background-color: #83a6d5;
+    border-bottom: 1px solid rgb(184, 200, 221);
+}
+
+#affix-nav a {
+    color: white;
+}
+
+.navbar li.active > a {
+    background-color: #83a6d5;
+    <%#TODO: A little bit more tweaking%>
+    -moz-box-shadow: 0px 0px 27px 5px rgb(84, 83, 83) inset;
+    -webkit-box-shadow: 0px 0px 27px 5px rgb(84, 83, 83) inset;
+    box-shadow: 0px 0px 27px 5px rgb(84, 83, 83) inset;
 }
 
 #affix-nav.affix-top {
@@ -151,7 +182,7 @@ div#landing {
     -webkit-transition: all .6s ease-in-out;
 }
 
-#scroll-down {
+i.scroll-down {
     text-align: center;
     bottom: 20px;
     width:50px;
@@ -165,4 +196,9 @@ div#landing {
 
 #content > div {
     margin: 30px;
+}
+
+<%#TODO: This is kinda ugly. But I"m lazy right now%>
+#affix-nav .glyphicon {
+    display: none;
 }
