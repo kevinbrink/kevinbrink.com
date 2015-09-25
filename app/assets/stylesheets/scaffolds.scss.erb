@@ -1,18 +1,13 @@
-<%## TODO: NEED to figure out good colors. Kinda all over the place right now%>
-
-body {
-    color: #333;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-}
-
 body {
     background: url(<%= asset_path 'index-background.jpg' %>) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 body#about {
@@ -111,7 +106,7 @@ div {
 }
 
 .navbar {
-    background-color: rgba(184, 200, 221, 0.99);
+    background-color: rgba(255, 255, 255, 0.85);
     border: none;
 }
 
@@ -144,33 +139,25 @@ p.scroll-down {
 }
 
 #content {
-    background-color: rgba(131, 166, 213, 0.85);
     margin: 0% 10% 2% 10%;
-    color: white;
+    background-color: rgba(231, 231, 231, 0.75);
 }
 
 #main-nav a {
-    color: black;
 }
 
 #affix-nav {
     position: fixed;
     width: 100%;
     top: -100px;
-    background-color: #83a6d5;
-    border-bottom: 1px solid rgb(184, 200, 221);
 }
 
 #affix-nav a {
-    color: white;
 }
 
 .navbar li.active > a {
-    background-color: #83a6d5;
-    <%#TODO: A little bit more tweaking%>
-    -moz-box-shadow: 0px 0px 27px 5px rgb(84, 83, 83) inset;
-    -webkit-box-shadow: 0px 0px 27px 5px rgb(84, 83, 83) inset;
-    box-shadow: 0px 0px 27px 5px rgb(84, 83, 83) inset;
+    background-color: #555 !important;
+    color: #e7e7e7 !important;
 }
 
 #affix-nav.affix-top {
