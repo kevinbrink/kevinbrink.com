@@ -9,8 +9,8 @@ preload_app!
 
 # Use default rack settings
 rackup      DefaultRackup
-# Set the port, or fallback to 3000
-port        ENV['PORT']     || 3000
+# Set the port, or fallback to 8000
+port        ENV['PORT']     || 8000
 # Use the RACK_ENV for environment; fallback to development
 environment ENV['RACK_ENV'] || 'development'
 
