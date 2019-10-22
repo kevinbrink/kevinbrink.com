@@ -24,6 +24,13 @@ class BlogPostsController < ApplicationController
       render :new
     end
   end
+  
+  # GET /blog_posts/1
+  # GET /blog_posts/1.json
+  def show
+    @blog_post = BlogPost.find(id=params[:id])
+  end
+
 
 ################## CURRENTLY UNSUPPORTED OPERATIONS ############
 #
@@ -40,12 +47,6 @@ class BlogPostsController < ApplicationController
 #      end
 #    end
 #  end
-#  
-#  # GET /blog_posts/1
-#  # GET /blog_posts/1.json
-#  def show
-#  end
-#
 #
 #  # DELETE /blog_posts/1
 #  # DELETE /blog_posts/1.json

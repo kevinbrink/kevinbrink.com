@@ -1,19 +1,14 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @blog_post.title %>
-</p>
-
-<p>
-  <strong>Body:</strong>
-  <%= @blog_post.body %>
-</p>
-
-<p>
-  <strong>Tagline:</strong>
-  <%= @blog_post.tagline %>
-</p>
-
-<%= link_to 'Edit', edit_blog_post_path(@blog_post) %> |
-<%= link_to 'Back', blog_posts_path %>
+<div>
+  <h1 class="title text-center">
+      <%= @blog_post.title %>
+  </h1>
+  <h5 class="text-right">
+    <%= @blog_post.created_at.in_time_zone('Pacific Time (US & Canada)').strftime("%B %e, %Y") %>
+  </h5>
+  <p>
+      <%= @blog_post.body.html_safe %>
+  </p>
+  <h4 class="text-center">
+      <%= @blog_post.tagline %>
+  </h4>
+</div>

@@ -13,8 +13,11 @@
     <% @blog_posts.each do |blog_post| %>
         <div class="row blog">
             <h1 class="title text-center">
-                <%= blog_post.title %>
+                <a href="/blog/<%= blog_post.id %>"><%= blog_post.title %></a>
             </h1>
+            <h5 class="text-right">
+              <%= blog_post.created_at.in_time_zone('Pacific Time (US & Canada)').strftime("%B %e, %Y") %>
+            </h5>
             <p>
                 <%= blog_post.body.html_safe %>
             </p>
@@ -22,5 +25,6 @@
                 <%= blog_post.tagline %>
             </h4>
         </div>
+        <hr style="border-color: black">
     <% end %>
 </div>

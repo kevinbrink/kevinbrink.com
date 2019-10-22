@@ -8,16 +8,10 @@ services:
     build: .
     command: bundle exec puma -C config/puma.rb
     volumes:
-      - .:/myapp
+      - ./app:/myapp/app
+      - ./config:/myapp/config
+      - ./db:/myapp/db
     ports:
       - "8000:8000"
     depends_on:
       - db
-    # Use the "bundle" images /bundle volume to the web containers /bundle path
-    volumes_from:
-      - bundle
-  bundle:
-    image: kevinbrink_web
-    command: echo Im a little data container, short and stout...
-    volumes:
-      - /bundle
