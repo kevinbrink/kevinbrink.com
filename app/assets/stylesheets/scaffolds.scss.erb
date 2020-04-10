@@ -5,7 +5,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     color: #333;
-    font-family: verdana, arial, helvetica, sans-serif;
+    font-family: avenir, helvetica, verdana, arial, sans-serif;
     font-size: 13px;
     line-height: 18px;
 }
@@ -24,10 +24,22 @@ body#contact {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+body#stories {
+    background: url(<%= asset_path 'stories-background.jpg' %>) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.aside {
+  font-size: 1.1em;
 }
 
 p, ol, ul, td {
-    font-family: verdana, arial, helvetica, sans-serif;
+    font-family: avenir, helvetica, verdana, arial, sans-serif;
     font-size: 1.3em;
     line-height: 18px;
 }

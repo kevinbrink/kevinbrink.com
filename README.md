@@ -7,4 +7,16 @@ waxing too eloquent here.
 However, if anyone has some suggestions for how to better it, I'm all ears; feel
 free to contact me at Kevin@KevinBrink.com.
 
+## Running
+
+```
+docker-compose up -d
+```
+
+## Migrating
+
+```
+docker exec -it $(docker ps -q --filter name="_web_") rake db:migrate
+```
+
 #### Version 2.0

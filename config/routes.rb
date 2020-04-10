@@ -6,14 +6,12 @@ Rails.application.routes.draw do
   post 'blog_posts' => 'blog_posts#create'
   get 'blog/:id' => 'blog_posts#show'
 
-  #resources :blog_posts
-  #get 'new_blog_post' => 'blog_posts#new'
-  #get 'edit_blog_post' => ' blog_posts#edit'
-  #get 'blog_post' => ' blog_posts#show'
-  #patch  'blog_post' => ' blog_posts#update'
-  #put    'blog_post' => ' blog_posts#update'
-  #delete 'blog_post' => ' blog_posts#destroy'
+  #get 'new_story' => 'story_posts#new'
+  #post 'create_story' => 'story_posts#create'
+  #post 'story_posts' => 'story_posts#create'
+  #get 'story/:id' => 'story_posts#show'
 
   get 'about' => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
+  get 'stories' => 'static_pages#stories'
 end
