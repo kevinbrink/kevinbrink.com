@@ -19,4 +19,10 @@ docker-compose up -d
 docker exec -it $(docker ps -q --filter name="_web_") rake db:migrate
 ```
 
+## Deploying
+
+```
+git push heroku
+```
+
 #### Version 2.0
