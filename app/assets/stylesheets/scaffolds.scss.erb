@@ -34,6 +34,23 @@ body#stories {
     background-size: cover;
   }
 
+  body#stories div#list {
+    display: flex;
+  }
+
+  a.story {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+  }
+
+  a.story > * {
+    margin: 0px;
+  }
+
 .aside {
   font-size: 1.1em;
 }
