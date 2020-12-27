@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Make sure this matches https://devcenter.heroku.com/articles/ruby-support#supported-runtimes
-ruby '2.2.2'
+ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
