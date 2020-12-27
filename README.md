@@ -25,4 +25,11 @@ docker exec -it $(docker ps -q --filter name="_web_") rake db:migrate
 git push heroku
 ```
 
+## Updating packages
+
+```
+docker exec -it $(docker ps -q --filter name="_web_") bundle install
+docker cp "$(docker ps -q --filter name="_web_"):/myapp/Gemfile.lock" ./Gemfile.lock
+```
+
 #### Version 2.0
