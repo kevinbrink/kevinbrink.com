@@ -14,4 +14,8 @@ Rails.application.routes.draw do
   get 'about' => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
   get 'stories' => 'static_pages#stories'
+  get 'rsvp' => 'static_pages#rsvp'
+  get 'registry' => 'static_pages#registry'
+  get 'fun-registry' => 'static_pages#fun_registry'
+  get 'wedding' => 'static_pages#wedding'
 end
