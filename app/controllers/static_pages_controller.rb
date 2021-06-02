@@ -16,7 +16,7 @@ class StaticPagesController < ApplicationController
     redirect_to "https://www.myregistry.com/wedding-registry/kevin-brink-and-kendra-malskaitis-aylmer-on/2865129"
   end
 
-  def fun-registry
+  def fun_registry
   end
 
   def wedding
