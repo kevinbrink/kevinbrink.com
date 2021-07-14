@@ -20,7 +20,7 @@ class StaticPagesController < ApplicationController
     redirect_to "https://www.myregistry.com/wishlist/kevin-brink-aylmer-on/2881413"
   end
 
-  def weddingmeal
+  def meal
     redirect_to "https://forms.gle/LuCJTFhQAQenVE7S9"
   end
 
