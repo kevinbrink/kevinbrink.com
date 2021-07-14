@@ -17,5 +17,6 @@ Rails.application.routes.draw do
   get 'rsvp' => 'static_pages#rsvp'
   get 'registry' => 'static_pages#registry'
   get 'fun-registry' => 'static_pages#fun_registry'
+  get 'meal' => 'static_pages#wedding_meal'
   get 'wedding' => 'static_pages#wedding'
 end
