@@ -17,8 +17,14 @@ class StaticPagesController < ApplicationController
   end
 
   def fun_registry
+    redirect_to "https://www.myregistry.com/wishlist/kevin-brink-aylmer-on/2881413"
+  end
+
+  def wedding_meal
+    redirect_to "https://forms.gle/LuCJTFhQAQenVE7S9"
   end
 
   def wedding
+    redirect_to "https://fb.me/e/2zJ96jTpj"
   end
 end
