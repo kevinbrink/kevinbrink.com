@@ -16,11 +16,11 @@ class StaticPagesController < ApplicationController
     redirect_to "https://www.myregistry.com/wedding-registry/kevin-brink-and-kendra-malskaitis-aylmer-on/2865129"
   end
 
-  def fun-registry
+  def funregistry
     redirect_to "https://www.myregistry.com/wishlist/kevin-brink-aylmer-on/2881413"
   end
 
-  def wedding-meal
+  def weddingmeal
     redirect_to "https://forms.gle/LuCJTFhQAQenVE7S9"
   end
 
