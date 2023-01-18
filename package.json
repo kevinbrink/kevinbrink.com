@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd client && yarn build",
     "dev": "env-cmd nodemon index.js",
     "repl": "env-cmd node"
   },
