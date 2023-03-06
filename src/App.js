@@ -1,21 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Fragment } from "react";
+import { blogs } from "./data/blogs.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>HI</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {blogs.map((blog) => {
+        return (
+          <Fragment>
+            <h1>{blog.title}</h1>
+            <h3>{blog.date}</h3>
+            <p>{blog.body}</p>
+          </Fragment>
+        );
+      })}
     </div>
   );
 }
