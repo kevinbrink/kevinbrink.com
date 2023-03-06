@@ -1,20 +1,33 @@
-import "./App.css";
 import { blogs } from "./data/blogs.js";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, createStyles } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
       {blogs.map((blog) => {
         return (
-          <Box>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <Typography variant="h1">{blog.title}</Typography>
             <Typography variant="h3">{blog.date}</Typography>
-            <Typography variant="body">{blog.body}</Typography>
+            {blog.body.split("\n").map((paragraph) => {
+              return <Typography variant="body1">{paragraph}</Typography>;
+            })}
           </Box>
         );
       })}
-    </div>
+    </Box>
   );
 }
 
