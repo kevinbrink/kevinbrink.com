@@ -1,17 +1,17 @@
 import "./App.css";
-import { Fragment } from "react";
 import { blogs } from "./data/blogs.js";
+import { Box, Typography } from "@mui/material";
 
 function App() {
   return (
     <div className="App">
       {blogs.map((blog) => {
         return (
-          <Fragment>
-            <h1>{blog.title}</h1>
-            <h3>{blog.date}</h3>
-            <p>{blog.body}</p>
-          </Fragment>
+          <Box>
+            <Typography variant="h1">{blog.title}</Typography>
+            <Typography variant="h3">{blog.date}</Typography>
+            <Typography variant="body">{blog.body}</Typography>
+          </Box>
         );
       })}
     </div>
