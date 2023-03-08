@@ -41,9 +41,9 @@ Jesus.
 
 I deeply, truly, thoroughly miss Redding, California, and all it means to me.
 
-Since leaving Redding, I find myself having random moments when a particular moment, person, or place in or around Redding will suddenly flash through my mind, reminding me yet again just how much that place became home. I think I underestimated just how attached I became to that city.
+Since leaving Redding, I find myself having random moments when a particular moment, person, or place in or around Redding will suddenly flash through my mind, reminding me yet again just how much that place became home. I think I underestimated exactly how attached I became to that city.
 
-I’m still grappling with exactly what to do when those memories come flooding back. Mostly I just take a minute or two to thank God for the gift it was to spend three years of my life in Redding & at Bethel. I’m not sure exactly what else to to do.
+I’m still grappling with exactly what to do when those memories come flooding back. Mostly I just take a minute or two to thank God for the gift it was to spend three years of my life in Redding & at Bethel. I’m not really sure what else to to do.
 
 I’m certainly not planning on moving back; that’s not what this post is about. It’s not even about a longing to go back. In many ways, going back geographically wouldn’t really accomplish that much. Sure, visiting Redding would bring about some great nostalgia, and getting to hang out at Bethel is always a delight. Plus, I do still have incredible friends living there that would be lovely to see again. I’m certain Kendra & I will venture down there sometime in the future.
 
@@ -55,7 +55,7 @@ Perhaps it’s just being back in Canada and Ontario for the first autumn in yea
 
 Some, seemingly eager to be rid of the previous season, shed their leaves early, and stand stark & stale, ready to embrace winter while trees around them continue to glory in the brilliance of fall.
 
-Others, on the other hand, seem to cling to summer, awkwardly hanging on to bunches of green leaves, as if in denial of the passing of an era.
+Others, on the other hand, seem to cling to summer, awkwardly hanging on to bunches of green leaves, as if in denial of the passing era.
 
 Perhaps it’s a predictable cliche, but I still like the metaphor...
 
