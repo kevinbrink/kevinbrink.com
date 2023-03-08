@@ -10,12 +10,11 @@ function App() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        backgroundColor: "lightgrey",
+        backgroundColor: theme.palette.grey[200],
       }}
     >
       <Box
         sx={{
-          marginBottom: "10px",
           padding: "20px",
           backgroundColor: "#f5db4f",
           width: "100%",
@@ -36,15 +35,16 @@ function App() {
         }}
       >
         <Typography
-          variant="h4"
+          variant="h5"
           sx={{
             padding: "8px",
             borderRadius: "5px",
-            backgroundColor: "lightgrey",
+            backgroundColor: theme.palette.text.primary,
+            color: theme.palette.primary.contrastText,
             zIndex: "1",
           }}
         >
-          Construction In Progress
+          Warning: Construction In Progress...
         </Typography>
       </Box>
       <Paper
@@ -54,6 +54,8 @@ function App() {
           justifyContent: "center",
           maxWidth: "75%",
           padding: "50px",
+          margin: "10px 0px",
+          backgroundColor: theme.palette.grey[50],
         }}
       >
         {blogs.map((blog) => {
