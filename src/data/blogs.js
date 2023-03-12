@@ -70,6 +70,6 @@ I’m eager to see what God has in store for us in the future. But I refuse to l
 Jesus, thank you for the here & now. Let the growth of the previous season flood me with gratitude, the promise of all that is to come pervade me with hope, and the beauty of the present fill me with wonder and attentiveness.
 
 Let me move through every season with grace.`,
-    date: "2023-03-05",
+    date: "2023-03-12",
   },
 ];
