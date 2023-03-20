@@ -1,7 +1,8 @@
 import { blogs } from "./data/blogs.js";
 import { Box, Typography, Paper, useMediaQuery } from "@mui/material";
 import { useTheme } from "@emotion/react";
-import background from './background.jpeg';
+import background from './background.png';
+import background2 from './background.jpeg';
 import logo from "./logo.svg";
 
         //<img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +20,7 @@ function App() {
   >
       <img src={logo} />
       <img src={background} />
+      <img src={background2} />
       <Box
         sx={{
           display: "flex",
