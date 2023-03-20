@@ -1,9 +1,12 @@
 import { blogs } from "./data/blogs.js";
-import { Box, Typography, createStyles, Paper } from "@mui/material";
+import { Box, Typography, Paper, useMediaQuery } from "@mui/material";
 import { useTheme } from "@emotion/react";
+import background from './images/background.jpeg';
 
+        //<img src={logo} className="App-logo" alt="logo" />
 function App() {
   const theme = useTheme();
+  const smallScreen = useMediaQuery('(max-width:800px)');
   return (
     <Box
       sx={{
@@ -12,50 +15,40 @@ function App() {
         alignItems: "center",
         backgroundColor: theme.palette.grey[200],
       }}
-    >
+  >
       <Box
         sx={{
-          padding: "20px",
-          backgroundColor: "#f5db4f",
-          width: "100%",
-          textAlign: "center",
-          position: "relative",
           display: "flex",
-          justifyContent: "center",
-          "&:after": {
-            top: "0px",
-            left: "0px",
-            right: "0px",
-            bottom: "0px",
-            content: "''",
-            position: "absolute",
-            background:
-              "repeating-linear-gradient(315deg, transparent, transparent 8px, #19213E73 8px, #19213E73 16px)",
-          },
+          flexDirection: "column",
+          alignItems: "center",
+          backgroundColor: theme.palette.grey[200],
+          backgroundImage: `url(${background})`,
+          backgroundPosition: "top center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: smallScreen ? "auto 100vh" : "cover",
+          position: "fixed",
+          height: "100vh",
+          width: "100vw"
         }}
-      >
-        <Typography
-          variant="h5"
-          sx={{
-            padding: "8px",
-            borderRadius: "5px",
-            backgroundColor: theme.palette.text.primary,
-            color: theme.palette.primary.contrastText,
-            zIndex: "1",
-          }}
-        >
-          Warning: Construction In Progress...
-        </Typography>
-      </Box>
+      />
+      <Typography variant="h2" sx={{
+        position: "absolute",
+        marginTop: theme.spacing(2),
+        color: theme.palette.primary.dark
+      }}>The Brink</Typography>
       <Paper
         elevation={3}
         sx={{
           display: "flex",
           justifyContent: "center",
-          maxWidth: "75%",
-          padding: "50px",
-          margin: "10px 0px",
-          backgroundColor: theme.palette.grey[50],
+          maxWidth: "85%",
+          padding: smallScreen ? "25px" : "50px",
+          margin: "97vh 0 10px 0px",
+          backgroundColor: theme.palette.primary.dark,
+          color: theme.palette.primary.main,
+          boxShadow: "0 -25px 100px rgba(0,0,0)",
+          boxSizing: "border-box",
+          zIndex: "1"
         }}
       >
         {blogs.map((blog) => {
@@ -68,12 +61,12 @@ function App() {
                 alignItems: "center",
               }}
             >
-              <Typography variant="h3">{blog.title}</Typography>
+              <Typography variant="h3" sx={{ textAlign: "center" }}>{blog.title}</Typography>
               <Typography
                 variant="h6"
                 sx={{
                   width: "100%",
-                  textAlign: "right",
+                  textAlign: smallScreen ? "center" : "right",
                 }}
               >
                 {blog.date}

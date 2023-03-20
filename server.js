@@ -16,6 +16,10 @@ var options = {
 }
 app.use(express.static('build', options))
 
+app.get('/list', (req, res) => {
+  res.redirect('https://docs.google.com/spreadsheets/d/1DJLzjbDqeWWrVun3joJUWRXyjR1S4KLDFPO08FUOLTE/edit?usp=sharing');
+});
+
 const port = process.env.PORT || 3000
 
 app.listen(port, () => {
