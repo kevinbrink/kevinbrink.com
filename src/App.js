@@ -1,11 +1,8 @@
 import { blogs } from "./data/blogs.js";
 import { Box, Typography, Paper, useMediaQuery } from "@mui/material";
 import { useTheme } from "@emotion/react";
-import background2 from './images/background.jpg';
 import background from './images/_DSC1261.jpeg';
-import logo from "./images/logo.svg";
 
-        //<img src={logo} className="App-logo" alt="logo" />
 function App() {
   const theme = useTheme();
   const smallScreen = useMediaQuery('(max-width:800px)');
@@ -18,9 +15,6 @@ function App() {
         backgroundColor: theme.palette.grey[200],
       }}
   >
-      <img src={logo} />
-      <img src={background} />
-      <img src={background2} />
       <Box
         sx={{
           display: "flex",
