@@ -2,7 +2,7 @@ import {Link, useLocation} from "react-router-dom";
 import { Box, Paper, Typography} from "@mui/material";
 import { useTheme } from "@emotion/react";
 
-const Navigation = ({ link, title }) => {
+const Navigation = ({ link, title, smallScreen }) => {
   const theme = useTheme();
   return (
     <Link style={{ textDecoration: "none" }} to={link}>
@@ -12,6 +12,7 @@ const Navigation = ({ link, title }) => {
         opacity: "0.7",
         backgroundColor: theme.palette.primary.dark,
         color: theme.palette.primary.main,
+        fontSize: smallScreen ? "1.5rem" : null
       }}>{title}</Typography>
     </Link>
   );
@@ -19,7 +20,7 @@ const Navigation = ({ link, title }) => {
 
 const Page = ({ background, children, vOffset = "97vh", smallScreen = true }) => {
   const theme = useTheme();
-  const location = useLocation();
+  const { pathname: currentPage } = useLocation();
   return (
     <Box
       sx={{
@@ -54,19 +55,19 @@ const Page = ({ background, children, vOffset = "97vh", smallScreen = true }) =>
           alignItems: "center"
         }}
         >
-      {location.pathname.toLowerCase().includes("blogs") ? 
-          <Navigation link="/about" title="About"/> :
-          <Navigation link="/blogs" title="Blogs"/>
+          {["/", "/blogs"].includes(currentPage.toLowerCase()) ? 
+          <Navigation smallScreen={smallScreen} link="/about" title="About"/> :
+          <Navigation smallScreen={smallScreen} link="/blogs" title="Blogs"/>
       }
       <Typography variant="h2" sx={{
         color: theme.palette.primary.dark,
         textAlign: "center",
-        textShadow: location.pathname.toLowerCase().includes("stories") ? `-1px 0 ${theme.palette.primary.main}, 0 1px ${theme.palette.primary.main}, 1px 0 ${theme.palette.primary.main}, 0 -1px ${theme.palette.primary.main}` : "",
+        textShadow: currentPage.toLowerCase().includes("stories") ? `-1px 0 ${theme.palette.primary.main}, 0 1px ${theme.palette.primary.main}, 1px 0 ${theme.palette.primary.main}, 0 -1px ${theme.palette.primary.main}` : "",
         fontSize: smallScreen ? "3.5rem" : null
       }}>The Brink</Typography>
-      {location.pathname.toLowerCase().includes("stories") ? 
-          <Navigation link="/about" title="About"/> :
-          <Navigation link="/stories" title="Stories"/>
+      {currentPage.toLowerCase().includes("stories") ? 
+          <Navigation smallScreen={smallScreen} link="/about" title="About"/> :
+          <Navigation smallScreen={smallScreen} link="/stories" title="Stories"/>
       }
     </Box>
       <Paper
