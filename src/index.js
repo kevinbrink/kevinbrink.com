@@ -23,6 +23,10 @@ ReactDOM.render(
             element={<Stories />}
           />
           <Route
+            path="/blogs"
+            element={<Blog />}
+          />
+          <Route
             path="*"
             element={<Blog />}
           />
