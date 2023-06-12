@@ -76,6 +76,8 @@ const Page = ({ background, children, vOffset = "97vh", smallScreen = true }) =>
           display: "flex",
           justifyContent: "center",
           maxWidth: "85%",
+          flexDirection: "column",
+          gap: "75px",
           padding: smallScreen ? "25px" : "50px",
           margin: `${vOffset} 0 10px 0px`,
           backgroundColor: theme.palette.primary.dark,
