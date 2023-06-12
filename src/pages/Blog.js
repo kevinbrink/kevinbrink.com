@@ -50,7 +50,7 @@ function Blog() {
                 alignItems: "center",
               }}
             >
-              <Typography variant="h3" sx={{ textAlign: "center" }}>{blog.title}</Typography>
+              <Typography variant={smallScreen ? "h4" : "h3"} sx={{ textAlign: "center" }}>{blog.title}</Typography>
               <Typography
                 variant="h6"
                 sx={{
