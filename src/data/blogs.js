@@ -1,5 +1,104 @@
 export const blogs = [
   {
+    title: "Why I’ve moved from Cornwall",
+    body: `July 13, 2023.
+
+That’s when I first start jotting down some thoughts that I hoped would turn into a blog titled something along the lines of “Why I’m moving away from Cornwall.”
+
+Here, some 15 months later, I try to steal a few moments here & there in the beautiful & chaotic whirl of life to collect some thoughts on the matter.
+
+I’m confident few reading this will be at all surprised, but Cornwall, ever my home*town*, is no longer my *home*. I don’t expect it ever will be again.
+
+Looking back farther to the summer of 2019, I posted a blog post in two parts entitled “Why I’m leaving Cornwall,” explaining the reasons I was headed — temporarily — for Redding, California, and trying to preemptively debunk some of the incorrect guesses at my motivation for doing so.
+
+At the time, in many respects, the journey felt like leaving it all behind.
+
+In the rear view mirror were so many things near & dear to me:
+
+The church I had attended since its very first service in March of 2003. The worship team that had been forged in countless youth services & grew up to lead that beloved church in powerful, passionate, and excellent worship experiences. My parents, siblings, in-laws, and the growing number of nephews & nieces, whose birthday parties I had rarely missed. My job, by some reckonings the dream: stable, safe, and career-worthy.
+
+The city I was born & raised in, and still know so well. Where I played hockey, soccer, and basketball. Where I made friends, said goodbye to some, and made more.
+
+Those paths by the river I ran countless kilometres, had deep & worthwhile conversations, and, at times, processed out the painful & confusing moments of life with Jesus.
+
+The beaches. The local hockey rinks. The excitement of a Starbucks coming to town, and the endless selection of Tim Hortons shops. 
+
+Those gems of people that have known my family since before I was born, and literally watched me grow up from baby to man.
+
+Memories seemingly attached to every street & building.
+
+Leaving something behind is never easy. It’s always painful & sad.
+
+I suppose I felt some of those emotions when I moved to Ottawa for college, and of course, like I mentioned, when I left for my first year of ministry school. Strangely enough, those emotions felt even more forceful when I left for second year.
+
+Then there was that beautiful transition of marriage, with all the newness & excitement & promise, but coupled with the undeniable reality of letting go as well.
+
+Life changes. It’s in motion. Things shift.
+
+And there’s always sadness at what gets left behind.
+
+But for me, none of these transitions have felt quite like Kendra & I making our decision to call Aylmer — not Cornwall — home.
+
+And not just our “home for now,” or “home for this season.” This is *home*, until we die or Jesus makes it abundantly clear He wants us elsewhere.
+
+Until those things happen, this is where our kids will be born & grow up. Where our primary focal point for relational investment will be fixed. Where will give our energy to seeing the Kingdom expanded & the church grow.
+
+Where we will meet people who will become lifelong friends. Where we will have passionate worship nights & life-changing conversations.
+
+Where I will find new paths to run, discover new coffee shops, and get the opportunity to connect with Kendra’s collection of family.
+
+Every tree requires the death of a seed. Every step of trust requires the letting go of control.
+
+But if I’ve learned anything about God so far, it’s this:
+
+It’ll be worth it.
+
+I’ve never regretted trusting in God. I’ve never wished I had followed my own ideas instead of His. I’ve yet to reach the end of His Faithfulness, or scraped the bottom of His goodness.
+
+Kendra & I haven’t moved from Cornwall because we’re trying to get away from something. We didn’t choose Aylmer because Kendra twisted my arm. We’re didn’t make this decision because we grew tired of our house there, or the church there, or the city.
+
+Cornwall & Harvest Christian Fellowship will always be in my heart. I will always cheer on that city & church, and any chance I get I will celebrate what God is doing there. And for all of the friends & family I now get to see far less frequently than I’d like, please know my relationships with you are still the most difficult part of living so far away. I cherish every connection I made while I lived in Cornwall, and though I don’t plan on ever ending any of them, I grieve the change that must take place with the new geographical distance between.
+
+We didn’t choose Aylmer because we were trying to leave anything.
+
+We chose Aylmer because we simply believe God led us here. 
+
+And it still feels hard at times.
+
+It feels hard to let go of dreams I once had that were tied to Cornwall. At times, I feel like I let people down who were assuming — like I was — that I’d someday move back and once again pour my life into that city & church. Perhaps it’s just in my mind, but I feel there are hopes & expectations of friends that I disappointed.
+
+There’s a sadness to it. There’s a part of it that’s difficult.
+
+And that’s okay. I didn’t say “yes” to Jesus to get an easy, carefree life.
+
+But even if parts of this transition have felt — and still feel — hard, I’ve also felt so many gifts in our time here so far, and so much hope & expectation for the future.
+
+I’ve felt God fill me with love for this church — Aylmer Full Gospel — and the surrounding town & community.
+
+I’ve seen God touch people in powerful ways, and heard stories of hope as people encounter Jesus afresh.
+
+I have felt so loved, welcomed, encouraged, and supported by this entire community, and especially our lead pastors, which has made any bumps in the road feel smaller than they otherwise would.
+
+I’ve felt such excitement as snippets of vision I have for different aspects of the church have already taken shape, and so encouraged as I see the love & care people have for each other.
+
+And I have so much expectation for the future.
+
+To see more people encounter Jesus, and experience everything the Kingdom is all about. To be saved, delivered, healed, and set free.
+
+To see families strengthened, marriages restored, and men & women of God equipped to transform the world around them.
+
+To see thriving, intimate community, where we can know & be known, and grow deep with God and each other.
+
+To see a fresh worship movement igniting in Canada, flooding whole-hearted individuals who are focused on delighting the heart of the Father, and seeing that culture encompass the globe.
+
+I want to see His Kingdom come, and His will be done, on earth just like it already is in heaven.
+
+But my focus is to partner with Him to see it happen in Aylmer.
+
+And, I suppose, *that* is why I’ve moved from Cornwall.`,
+    date: "2024-10-15",
+  },
+  {
     title: "DYSFUNCTION",
     body: `Oh! Blog! Hi!
 

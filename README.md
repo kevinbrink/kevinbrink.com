@@ -1,5 +1,9 @@
 # kevinbrink.com
 
+## Hosting:
+
+- Used to by cyclic. Now Render.
+
 ## TODO's:
 
 * [x] Fix full-screen photo on landing page on mobile
