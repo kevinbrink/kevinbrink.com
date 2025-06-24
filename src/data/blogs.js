@@ -1,5 +1,39 @@
 export const blogs = [
   {
+    title: "The Little Things: A belated birthday tribute to my wife",
+    body: `The Little Things.
+
+People talk about the Little Things. They talk about how important they are. From sports commentators to preachers to internet influencers, the Little Things are, they claim, what separates the good from the great, the average from the exceptional, the significant from the mundane.
+
+And when it comes to relationships — and marriage in particular — the Little Things keep their prominent position. Perhaps it’s making the bed, or taking out the trash, or not burning the eggs or remembering to pick up milk, but whatever they are for a given marriage, the Little Things, it seems, can make all the difference. They have impact. They swing above their weight class, with the potential to propel or cripple a relationship.
+
+When I began this incredible relational journey with Kendra, dating, engagement, and then marriage, I always imagined I would be good at the Little Things. At remembering those bits that matter, at accommodating tiny preferences, at going the extra mile to delight.
+
+Perhaps at times, I have been. I sure hope so. But it’s almost embarrassing how my best attempts seem to pale in comparison to this exceptional woman I get to be married to.
+ Several days before MY birthday, she went to the bakery to ensure she got my favourite kind of cake. Me? I stumbled my way into the bakery the day of HER birthday and confidently chose what, it turns out, is decidedly NOT her favourite kind of cake.
+
+When I’m rambling on about some interest of mine that we both know she doesn’t share, she still leans in, asks questions, and tracks with what’s going on. I, on the other hand, allow my mind to drift far too often, to the point that a recent conversation revealed just how far I’m lagging behind when I utterly flunked a test on her preferences & favourites, which included slow pitch questions like “what’s my favourite animal?” 😬
+
+On Father’s Day, she was adamant about making sure as much as possible was according to my preferences, and had gifts all ready and waiting. On Mother’s Day, she patiently waited in the van after church while I ran through the grocery store picking up things I hoped would celebrate her adequately.
+
+In short, she’s good at the Little Things. She’s good at remembering my preferences, planning ahead, and even being more aware of the Little Things in the lives of other people that I really should hold the upper hand in.
+
+I am grateful for and humbled by a wife that is good at the little things when it comes to our marriage relationship, and inspires me to get more intentional and improve in the Little Things myself.
+
+But then, of course, there is Kendra in the role of mother. And that’s where things go from amazing to almost unbelievable.
+
+She’s intentional about just about everything when it comes to Cason; when he wakes, what he wears, when he eats, what he eats, how much tummy time to do… She’s all about the Little Things, keeping our boy safe, happy, healthy, and growing. At times she’s raised concerns that would’ve never even entered my mind, but as we’ve talked through it I became fully convinced of her perspective. I couldn’t tell you what a single drawer in Cason’s dresser contains, but you can be Kendra has it all mapped out.
+
+It may be when Cason is thriving as a 30-something year old that I can rightly take some credit for helping guide him along life’s path, but the only reason Cason will even survive the first 5 years of his life — let alone thrive, as he no doubt will — is because of his mother.
+
+Babe, you are absolutely rocking motherhood. Thanks for being gracious in all my failings. You challenge me on the regular to grow in my intentionality and value for the Little Things. Maybe I’ll even grow enough by next year to post something like this on your actual birthday instead of several days late.
+
+Happy Birthday, lovely. I’m forever on your side, and forever yours. Wouldn’t want to be new-parent-exhausted with anyone else.
+
+❤️`,
+    date: "2025-06-23",
+  },
+  {
     title: "Why I’ve moved from Cornwall",
     body: `July 13, 2023.
 
