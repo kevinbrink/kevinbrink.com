@@ -28,7 +28,7 @@ It may be when Cason is thriving as a 30-something year old that I can rightly t
 
 Babe, you are absolutely rocking motherhood. Thanks for being gracious in all my failings. You challenge me on the regular to grow in my intentionality and value for the Little Things. Maybe I’ll even grow enough by next year to post something like this on your actual birthday instead of several days late.
 
-Happy Birthday, lovely. I’m forever on your side, and forever yours. Wouldn’t want to be new-parent-exhausted with anyone else.
+Happy belated Birthday, lovely. I’m forever on your side, and forever yours. Wouldn’t want to be new-parent-exhausted with anyone else.
 
 ❤️`,
     date: "2025-06-23",
