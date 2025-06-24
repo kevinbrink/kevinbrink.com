@@ -39,7 +39,7 @@ Happy belated Birthday, lovely. I’m forever on your side, and forever yours. W
 
 That’s when I first start jotting down some thoughts that I hoped would turn into a blog titled something along the lines of “Why I’m moving away from Cornwall.”
 
-Here, some 15 months later, I try to steal a few moments here & there in the beautiful & chaotic whirl of life to collect some thoughts on the matter.
+Here, some 16 months later, I try to steal a few moments here & there in the beautiful & chaotic whirl of life to collect some thoughts on the matter.
 
 I’m confident few reading this will be at all surprised, but Cornwall, ever my home*town*, is no longer my *home*. I don’t expect it ever will be again.
 
@@ -55,7 +55,7 @@ The city I was born & raised in, and still know so well. Where I played hockey, 
 
 Those paths by the river I ran countless kilometres, had deep & worthwhile conversations, and, at times, processed out the painful & confusing moments of life with Jesus.
 
-The beaches. The local hockey rinks. The excitement of a Starbucks coming to town, and the endless selection of Tim Hortons shops. 
+The beaches. The local hockey rinks. The excitement of a Starbucks coming to town, and the endless selection of Tim Hortons shops.
 
 Those gems of people that have known my family since before I was born, and literally watched me grow up from baby to man.
 
@@ -95,7 +95,7 @@ Cornwall & Harvest Christian Fellowship will always be in my heart. I will alway
 
 We didn’t choose Aylmer because we were trying to leave anything.
 
-We chose Aylmer because we simply believe God led us here. 
+We chose Aylmer because we simply believe God led us here.
 
 And it still feels hard at times.
 
@@ -107,7 +107,7 @@ And that’s okay. I didn’t say “yes” to Jesus to get an easy, carefree li
 
 But even if parts of this transition have felt — and still feel — hard, I’ve also felt so many gifts in our time here so far, and so much hope & expectation for the future.
 
-I’ve felt God fill me with love for this church — Aylmer Full Gospel — and the surrounding town & community.
+I’ve felt God fill me with love for this church and the surrounding town & community.
 
 I’ve seen God touch people in powerful ways, and heard stories of hope as people encounter Jesus afresh.
 
@@ -130,7 +130,7 @@ I want to see His Kingdom come, and His will be done, on earth just like it alre
 But my focus is to partner with Him to see it happen in Aylmer.
 
 And, I suppose, *that* is why I’ve moved from Cornwall.`,
-    date: "2024-10-15",
+    date: "2024-11-27",
   },
   {
     title: "DYSFUNCTION",
